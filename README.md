@@ -61,7 +61,7 @@ Response Obtained
 
 ```
 Tornado App for Asynchronous Networking
-Have added tornado webapp for asynchronous networking for scalability.
+Have added tornado webapp for asynchronous networking.
 Need to start it using python tornadoapp.py
 ```
 Request is 
