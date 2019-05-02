@@ -22,8 +22,6 @@ class ValueCrossingEvents(APIView):
         signal = [1, 2, 3, 3, 4, 5, 5, 6, 3, 2, 1]
         value = 5
         event = CrossingEvents(signal,value)
-
-        #stores=Stores.objects.all().order_by('location')
         serializer = ValueCrossingsSerializer(event)
         return Response(serializer.data)
 
